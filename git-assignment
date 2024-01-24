@@ -1,0 +1,27 @@
+1)git clone <url>
+  1.1) git clone -b <branch-name> <url>
+
+2)git init <file-name> is use to create a normal file to a git file by adding .git folder.
+
+3)git pull <repo-name> <branch-name> is use to download the content and code from remote repo(github) to the local repo(pc).
+
+4)git push <repo-name> <branch-name> is use to update our remote repo with local repo
+
+5)git fetch --all fetches all the updated branches and all the changes from remote repo to local repo.
+
+6)git cherry-pick <commit-hash1> <commit-hash2> helps to apply a commit of one branch to another.
+
+7)git checkout -m <new-branch-name>
+
+8)git switch <branch-name>
+
+9)git checkout <file-name> helps to undo the changes in file but before staged phase.
+  git checkout . helps to undo changes in all the file in repo in one go.
+  
+10)use to merge two branches with and without conflict.
+   Maintains clear history.
+   git merge <branch-name>
+
+11)use to merge two branches but doesnot preserve the commit history.
+   Rewrite the hostory of source branch on dest. branch
+   gir rebase <branch-name>
