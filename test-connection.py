@@ -17,4 +17,3 @@ for x in cursor:
 cursor.execute("select * from employees")
 for x in cursor:
     print(x)
-
